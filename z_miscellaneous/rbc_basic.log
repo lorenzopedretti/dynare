@@ -1,0 +1,45 @@
+Starting preprocessing of the model file ...
+WARNING: rbc_basic.mod:42.1-19: The 'simul' statement is deprecated. Please use 'perfect_foresight_setup' and 'perfect_foresight_solver' instead.
+Found 7 equation(s).
+Evaluating expressions...done
+Computing static model derivatives (order 1).
+Computing dynamic model derivatives (order 1).
+Processing outputs ...
+done
+Preprocessing completed.
+
+STEADY-STATE RESULTS:
+
+c 		 -0.0849113
+h 		 -1.09808
+r 		 -3.34953
+w 		 0.863142
+y 		 0.211345
+k 		 2.53922
+i 		 -1.14966
+
+STEADY-STATE RESULTS:
+
+c 		 0.0640109
+h 		 -1.09808
+r 		 -3.34953
+w 		 1.01206
+y 		 0.360267
+k 		 2.68814
+i 		 -1.00074
+
+--------------------------------------------------------
+MODEL SIMULATION:
+
+Iter: 1,	 err. = 1.98368,	 time = 0.078
+Iter: 2,	 err. = 0.121753,	 time = 0.016
+Iter: 3,	 err. = 0.000502839,	 time = 0.016
+Iter: 4,	 err. = 1.01192e-08,	 time = 0.016
+
+Total time of simulation: 0.139.
+--------------------------------------------------------
+
+Perfect foresight solution found.
+
+Total computing time : 0h00m01s
+Note: 1 warning(s) encountered in the preprocessor

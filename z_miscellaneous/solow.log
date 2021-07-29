@@ -1,0 +1,27 @@
+Starting preprocessing of the model file ...
+WARNING: solow.mod:28.1-19: The 'simul' statement is deprecated. Please use 'perfect_foresight_setup' and 'perfect_foresight_solver' instead.
+Found 4 equation(s).
+Evaluating expressions...done
+Computing static model derivatives (order 1).
+Computing dynamic model derivatives (order 1).
+Processing outputs ...
+done
+Preprocessing completed.
+
+STEADY-STATE RESULTS:
+
+y 		 1.15129
+k 		 3.45388
+c 		 0.863611
+i 		 -0.235001
+
+STEADY-STATE RESULTS:
+
+y 		 1.42477
+k 		 3.72736
+c 		 1.13709
+i 		 0.0384805
+Perfect foresight solution found.
+
+Total computing time : 0h00m01s
+Note: 1 warning(s) encountered in the preprocessor

@@ -1,0 +1,54 @@
+Starting preprocessing of the model file ...
+Found 14 equation(s).
+Evaluating expressions...done
+Computing static model derivatives (order 1).
+Computing dynamic model derivatives (order 1).
+Processing outputs ...
+done
+Preprocessing completed.
+
+STEADY-STATE RESULTS:
+
+w     		 0.796827
+C     		 -0.146676
+nu    		 0
+N     		 -1.09861
+delta 		 -3.91202
+R     		 -3.5032
+u     		 0
+r     		 -4.59512
+Y     		 0.10368
+Khat  		 2.50826
+K     		 2.50826
+A     		 0
+I     		 -1.40376
+tfp   		 0
+
+MODEL SUMMARY
+
+  Number of variables:         14
+  Number of stochastic shocks: 2
+  Number of state variables:   3
+  Number of jumpers:           4
+  Number of static variables:  7
+
+
+MATRIX OF COVARIANCE OF EXOGENOUS SHOCKS
+Variables         enu        eA
+enu          0.000000  0.000000
+eA           0.000000  0.000100
+
+
+
+THEORETICAL MOMENTS (HP filter, lambda = 1600)
+VARIABLE         MEAN  STD. DEV.   VARIANCE
+Y              0.1037     0.0189     0.0004
+N             -1.0986     0.0066     0.0000
+
+
+
+COEFFICIENTS OF AUTOCORRELATION (HP filter, lambda = 1600)
+Order          1       2       3       4       5
+Y         0.7217  0.4845  0.2867  0.1256 -0.0018
+N         0.7090  0.4644  0.2633  0.1020 -0.0235
+Total computing time : 0h00m00s

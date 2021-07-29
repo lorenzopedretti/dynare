@@ -1,0 +1,94 @@
+Starting preprocessing of the model file ...
+Found 10 equation(s).
+Evaluating expressions...done
+Computing static model derivatives (order 1).
+Computing dynamic model derivatives (order 1).
+Processing outputs ...
+done
+Preprocessing completed.
+
+STEADY-STATE RESULTS:
+
+w 		 0.796827
+R 		 -3.5032
+Y 		 0.10368
+N 		 -1.09861
+K 		 2.50826
+G 		 -1.50576
+C 		 -0.443596
+A 		 0
+I 		 -1.40376
+r 		 -4.59512
+
+MODEL SUMMARY
+
+  Number of variables:         10
+  Number of stochastic shocks: 2
+  Number of state variables:   3
+  Number of jumpers:           3
+  Number of static variables:  4
+
+
+MATRIX OF COVARIANCE OF EXOGENOUS SHOCKS
+Variables          ea        eg
+ea           0.000100  0.000000
+eg           0.000000  0.000100
+
+POLICY AND TRANSITION FUNCTIONS
+                                   Y               C               I               N               w               r               G
+Constant                    0.103680       -0.443596       -1.403759       -1.098612        0.796827       -4.595120       -1.505758
+K(-1)                       0.500000        0.743330        0.315908        0.250000        0.250000       -1.469614               0
+G(-1)                              0       -0.106853       -0.578766               0               0        0.017247        0.950000
+A(-1)                       1.455000        1.256067        3.288547        0.727500        0.727500        4.107824               0
+ea                          1.500000        1.294914        3.390254        0.750000        0.750000        4.234870               0
+eg                                 0       -0.112477       -0.609227               0               0        0.018155        1.000000
+
+
+THEORETICAL MOMENTS
+VARIABLE         MEAN  STD. DEV.   VARIANCE
+Y              0.1037     0.1046     0.0109
+C             -0.4436     0.1228     0.0151
+I             -1.4038     0.1635     0.0267
+N             -1.0986     0.0523     0.0027
+w              0.7968     0.0523     0.0027
+r             -4.5951     0.1633     0.0267
+G             -1.5058     0.0320     0.0010
+
+
+
+VARIANCE DECOMPOSITION (in percent)
+         ea      eg
+Y     99.61    0.39
+C     99.07    0.93
+I     98.24    1.76
+N     99.61    0.39
+w     99.61    0.39
+r     98.57    1.43
+G      0.00  100.00
+
+
+
+MATRIX OF CORRELATIONS
+Variables         Y       C       I       N       w       r       G
+Y            1.0000  0.9890  0.9539  1.0000  1.0000  0.0518 -0.0281
+C            0.9890  1.0000  0.9069  0.9890  0.9890 -0.0939 -0.0650
+I            0.9539  0.9069  1.0000  0.9539  0.9539  0.3240 -0.1307
+N            1.0000  0.9890  0.9539  1.0000  1.0000  0.0518 -0.0281
+w            1.0000  0.9890  0.9539  1.0000  1.0000  0.0518 -0.0281
+r            0.0518 -0.0939  0.3240  0.0518  0.0518  1.0000  0.0565
+G           -0.0281 -0.0650 -0.1307 -0.0281 -0.0281  0.0565  1.0000
+
+
+
+COEFFICIENTS OF AUTOCORRELATION
+Order          1       2       3       4       5
+Y         0.9897  0.9794  0.9691  0.9589  0.9487
+C         0.9944  0.9886  0.9826  0.9765  0.9703
+I         0.9775  0.9557  0.9343  0.9136  0.8933
+N         0.9897  0.9794  0.9691  0.9589  0.9487
+w         0.9897  0.9794  0.9691  0.9589  0.9487
+r         0.9651  0.9313  0.8986  0.8669  0.8362
+G         0.9500  0.9025  0.8574  0.8145  0.7738
+Government spending multiplier
+     0
+Total computing time : 0h00m04s

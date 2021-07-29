@@ -1,0 +1,45 @@
+Starting preprocessing of the model file ...
+WARNING: ramsey.mod:32.1-19: The 'simul' statement is deprecated. Please use 'perfect_foresight_setup' and 'perfect_foresight_solver' instead.
+Found 7 equation(s).
+Evaluating expressions...done
+Computing static model derivatives (order 1).
+Computing dynamic model derivatives (order 1).
+Processing outputs ...
+done
+Preprocessing completed.
+
+STEADY-STATE RESULTS:
+
+y 		 1.03584
+k 		 3.28675
+c 		 0.764802
+i 		 -0.40213
+n 		 -0.0896202
+w 		 0.719992
+r 		 -4.59512
+
+STEADY-STATE RESULTS:
+
+y 		 1.30932
+k 		 3.56023
+c 		 1.03828
+i 		 -0.128648
+n 		 -0.0896202
+w 		 0.993474
+r 		 -4.59512
+
+--------------------------------------------------------
+MODEL SIMULATION:
+
+Iter: 1,	 err. = 8.20521,	 time = 0.063
+Iter: 2,	 err. = 0.837559,	 time = 0
+Iter: 3,	 err. = 0.0109462,	 time = 0.015
+Iter: 4,	 err. = 2.09664e-06,	 time = 0.016
+
+Total time of simulation: 0.116.
+--------------------------------------------------------
+
+Perfect foresight solution found.
+
+Total computing time : 0h00m01s
+Note: 1 warning(s) encountered in the preprocessor
