@@ -18,7 +18,7 @@ model;
 exp(c(+1))=exp(c)*beta*(r(+1)+1-delta);
 (1-exp(h))*(1-theta)*exp(y)/exp(h)=A*exp(c);
 exp(w)=exp(lambda)*(1-theta)*(exp(k(-1))/exp(h))^theta;
-exp(r)=exp(lambda)*theta*(exp(h)/exp(k(-1)))^(1-theta);
+r=exp(lambda)*theta*(exp(h)/exp(k(-1)))^(1-theta);
 exp(y)=exp(lambda)*(exp(k(-1))^theta)*exp(h)^(1-theta);
 exp(y)=exp(c)+exp(i);
 exp(k)=exp(i)+(1-delta)*exp(k(-1));
